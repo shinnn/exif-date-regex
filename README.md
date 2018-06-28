@@ -61,14 +61,12 @@ The regular expression has 6 capture groups `year`, `month`, `date`, `hours`, `m
 ```
 -->
 
-<!--
 Leap years are taken into consideration.
 
 ```javascript
 exifDateRegex.test('2016:02:29 12:30:00'); //=> true
 exifDateRegex.test('2017:02:29 12:30:00'); //=> false
 ```
--->
 
 ## License
 
