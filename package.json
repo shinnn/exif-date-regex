@@ -1,0 +1,43 @@
+{
+	"name": "exif-date-regex",
+	"version": "0.1.0",
+	"description": "A regular expression to validate Exif date format",
+	"repository": "shinnn/exif-date-regex",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"license": "ISC",
+	"scripts": {
+		"prebuild": "eslint --fix --format=codeframe index.mjs test.js",
+		"build": "rollup --config=node:module",
+		"pretest": "npm run-script build",
+		"test": "node test.js"
+	},
+	"files": [
+		"index.js",
+		"index.mjs"
+	],
+	"module": "index.mjs",
+	"keywords": [
+		"exif",
+		"photo",
+		"metadata",
+		"year",
+		"month",
+		"day",
+		"date",
+		"parse",
+		"strict",
+		"group",
+		"regex",
+		"regexp"
+	],
+	"devDependencies": {
+		"@shinnn/eslint-config-node": "^5.0.0",
+		"eslint": "^5.0.1",
+		"rollup": "^0.62.0",
+		"rollup-config-module": "^2.0.0",
+		"tape": "^4.9.1"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn/node"
+	}
+}
