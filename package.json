@@ -7,7 +7,7 @@
 	"license": "ISC",
 	"scripts": {
 		"prebuild": "eslint .",
-		"build": "node -e \"fs.writeFileSync('index.js',fs.readFileSync('index.mjs','utf8').replace('export default ','module.exports='))\"",
+		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
 		"test": "node test.js"
 	},
@@ -31,11 +31,13 @@
 		"regexp"
 	],
 	"devDependencies": {
-		"@shinnn/eslint-config-node": "^6.0.0",
-		"eslint": "^5.1.0",
+		"@shinnn/eslint-config": "^6.8.1",
+		"eslint": "^5.9.0",
+		"rollup": "^0.67.3",
+		"rollup-config-module": "^2.0.1",
 		"tape": "^4.9.1"
 	},
 	"eslintConfig": {
-		"extends": "@shinnn/node"
+		"extends": "@shinnn"
 	}
 }
