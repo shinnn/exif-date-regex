@@ -56,4 +56,4 @@ exifDateRegex.test('2017:02:29 12:30:00'); //=> false
 
 ## License
 
-[ISC License](./LICENSE) © 2018 Shinnosuke Watanabe
+[MIT No Attribution](./LICENSE) © 2019 Shinnosuke Watanabe

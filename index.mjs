@@ -1,7 +1,3 @@
-/*!
- * exif-date-regex | ISC (c) Shinnosuke Watanabe
- * https://github.com/shinnn/exif-date-regex
-*/
 // Dinker Batra's code is used as reference for leap year validation
 // https://www.c-sharpcorner.com/forums/date-regular-expression-for-leap-year-date-validatation
 // (Terms: https://www.c-sharpcorner.com/termsconditions.aspx)
