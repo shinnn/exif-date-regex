@@ -1,6 +1,6 @@
 {
 	"name": "exif-date-regex",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A regular expression to validate and parse Exif date format",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"repository": "shinnn/exif-date-regex",
