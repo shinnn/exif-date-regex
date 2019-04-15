@@ -1,7 +1,7 @@
 # exif-date-regex
 
 [![npm version](https://img.shields.io/npm/v/exif-date-regex.svg)](https://www.npmjs.com/package/exif-date-regex)
-[![Build Status](https://travis-ci.com/shinnn/exif-date-regex.svg?branch=master)](https://travis-ci.com/shinnn/exif-date-regex)
+[![Github Actions](https://action-badges.now.sh/shinnn/exif-date-regex)](https://wdp9fww0r9.execute-api.us-west-2.amazonaws.com/production/results/shinnn/exif-date-regex)
 
 A [regular expression](https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions) to validate and parse Exif date format
 
@@ -25,7 +25,7 @@ format, and the date and time separated by one blank character
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install exif-date-regex
